@@ -1,4 +1,4 @@
-# Monte Carlo Simulation-Based Derivatives Pricing Library
+# Monte Carlo Simulation-Based Options Pricing Library
 
 This project implements a Monte Carlo simulation-based engine for pricing vanilla and exotic options using the Geometric Brownian Motion (GBM) model. The library is designed for educational purposes and showcases the implementation of parallelization with OpenMP to speed up Monte Carlo simulations.
 
