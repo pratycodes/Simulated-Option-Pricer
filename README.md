@@ -8,7 +8,6 @@ This project implements a Monte Carlo simulation-based engine for pricing vanill
 - [Features](#features)
 - [Dependencies](#dependencies)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Running Tests](#running-tests)
 - [Contributing](#contributing)
 - [License](#license)
@@ -16,6 +15,8 @@ This project implements a Monte Carlo simulation-based engine for pricing vanill
 ## Introduction
 
 This C++ project implements a Monte Carlo-based engine for pricing financial derivatives, specifically European and Asian options, using the Geometric Brownian Motion (GBM) model. The project incorporates parallelization using OpenMP to speed up Monte Carlo simulations, improving performance when simulating large numbers of paths.
+
+A Monte Carlo simulation is a way to model the probability of different outcomes in a process that cannot easily be predicted due to the intervention of random variables. It is a technique used to understand the impact of risk and uncertainty. A Monte Carlo simulation takes the variable that has uncertainty and assigns it a random value. The model is then run, and a result is provided. This process is repeated again and again while assigning many different values to the variable in question. Once the simulation is complete, the results are averaged to arrive at an estimate. 
 
 The library can be used to price:
 - European Call/Put options
